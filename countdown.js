@@ -3,7 +3,7 @@
    const minsEl = document.getElementById("mins");
    const secondsEl = document.getElementById("seconds");
    const newDate = "28 dec 2022";
-   const newTimeDate = new Date();
+   const newTimeDate = new Date(newDate);
    const aviso = document.getElementById('aviso');
    const avisoText = document.getElementById("avisoText");
    const temporizador = document.getElementById("temporizador");
@@ -16,9 +16,7 @@
 
        countdown();
 
-       console.log('pppp')
-
-       console.log(23)
+       
 
 
    });
